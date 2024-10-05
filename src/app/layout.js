@@ -7,6 +7,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import DropdownMenu from "./head/Manu";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       <Navbar/>
 
- 
+
         {children}
         
         
